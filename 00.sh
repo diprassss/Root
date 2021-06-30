@@ -1,4 +1,4 @@
-echo "run"
+
 chmod +x docker limit.sh
 ./limit.sh 00 65 75
 POOL=1pool.sugarchain.org:3333
