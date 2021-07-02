@@ -93,3 +93,599 @@ pipelines:
               - docker
             caches:
               - docker
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku7
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku8
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku9
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku10
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+
+        - step:
+            name: aku1
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - 
+        - step:
+            name: aku2
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku3
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku4
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku5
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag ${IMAGE_NAME}
+            services:
+              - docker
+            caches:
+              - docker
+        - step:
+            name: aku6
+            script:
+              - IMAGE_NAME=$BITBUCKET_REPO_SLUG
+              - docker build . --file Dockerfile --tag 
